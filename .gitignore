@@ -1,0 +1,21 @@
+# Ignore log files and compiled Python files
+*.log
+*.pyc
+__pycache__/
+
+# Ignore everything inside cytology/test, train, and updated_train
+OV-DETR/ovdetr/cytology/test/
+OV-DETR/ovdetr/cytology/train/
+OV-DETR/ovdetr/cytology/updated_train/
+
+# Ignore virtual environments
+detectron2/
+detectron2_env/
+venv/
+.venv/
+
+# Ignore adaptation-related files
+cytology_adaptation/
+
+# Ignore output files
+output.csv
