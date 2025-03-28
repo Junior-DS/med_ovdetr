@@ -1,0 +1,1 @@
+There are some error-annotated bounding boxes with 1 width or height which does not contain any cells. Please remove them before training or testing.

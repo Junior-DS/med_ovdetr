@@ -64,8 +64,8 @@ _darcs
 __pycache__/
 
 # Ignore everything inside cytology/test, train, and updated_train
-ov-detr/ovdetr/cytology/test/
-ov-detr/ovdetr/cytology/updated_train/
+open_vocabulary/ovdetr/cytology/test/
+open_vocabulary/ovdetr/cytology/updated_train/
 
 # Ignore virtual environments
 detectron2/
