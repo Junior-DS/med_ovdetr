@@ -82,3 +82,5 @@ output.csv
 
 ovdetr/cytology/test/
 ovdetr/cytology/updated_train/
+OV_DETR/ovdetr/cytology/test/
+OV_DETR/ovdetr/cytology/updated_train/
