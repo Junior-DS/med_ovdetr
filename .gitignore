@@ -1,5 +1,4 @@
-HEAD
-# output dir
+# output
 output
 instant_test_output
 inference_test_output
@@ -9,11 +8,11 @@ data
 logs
 exps
 
+# image formats
 *.png
 *.json
 *.diff
 *.jpg
-
 
 # compilation and distribution
 __pycache__
@@ -54,7 +53,7 @@ _darcs
 # project dirs
 /detectron2/model_zoo/configs
 /datasets/*
-!/datasets/*.*
+!/datasets/*.*  # Make sure this is the intended behavior
 /projects/*/datasets
 /models
 /snippet
@@ -65,8 +64,8 @@ _darcs
 __pycache__/
 
 # Ignore everything inside cytology/test, train, and updated_train
-OV_DETR/ovdetr/cytology/test/
-OV_DETR/ovdetr/cytology/updated_train/
+ov-detr/ovdetr/cytology/test/
+ov-detr/ovdetr/cytology/updated_train/
 
 # Ignore virtual environments
 detectron2/
@@ -79,8 +78,3 @@ cytology_adaptation/
 
 # Ignore output files
 output.csv
-
-ovdetr/cytology/test/
-ovdetr/cytology/updated_train/
-OV_DETR/ovdetr/cytology/test/
-OV_DETR/ovdetr/cytology/updated_train/
